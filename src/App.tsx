@@ -10,15 +10,7 @@ const Input = styled.input.attrs({required: true})`
 
 
 function App() {
-  return (
-    <Father as="header">
-      <Input />
-      <Input />
-      <Input />
-      <Input />
-      <Input />
-    </Father>
-  )
+  return <div />
 }
 
 export default App;
