@@ -1,16 +1,11 @@
 import styled from "styled-components"
-
-const Father = styled.div`
-  display: flex;
-`;
-
-const Input = styled.input.attrs({required: true})`
-  background-color: tomato;
-`;
-
+import Circle from "./Circle";
 
 function App() {
-  return <div />
+  return <div>
+      <Circle  borderColor="yellow" bgColor="teal"/>
+      <Circle bgColor="tomato"></Circle>
+    </div>
 }
 
 export default App;
